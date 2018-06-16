@@ -1,0 +1,203 @@
+@prefix schema: <http://schema.org/> .
+@prefix dsp:   <http://dublincore.org/dc-dsp#> .
+@prefix rutg:  <http://rdfunit.aksw.org/data/generators#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rlog:  <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rutp:  <http://rdfunit.aksw.org/data/patterns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix oslc:  <http://open-services.net/ns/core#> .
+@prefix rut:   <http://rdfunit.aksw.org/ns/core#> .
+@prefix rutr:  <http://rdfunit.aksw.org/data/results#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rutt:  <http://rdfunit.aksw.org/data/tests#> .
+@prefix ruts:  <http://rdfunit.aksw.org/data/testsuite#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc808f-2bba-11b2-8067-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-15T10:13:29.67Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdf:Seq ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8090-2bba-11b2-8067-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-15T10:13:29.671Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdf:Statement ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc808c-2bba-11b2-8067-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-15T10:13:29.666Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdf:Bag ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc808e-2bba-11b2-8067-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-15T10:13:29.668Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdf:Property ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8095-2bba-11b2-8067-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-15T10:13:29.675Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdfs:Literal ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93>
+        a                          sh:ValidationReport , prov:Activity , rut:TestExecution ;
+        rut:executionType          "shaclTestCaseResult" ;
+        rut:source                 </data/tmp/dnb/newgnd.ttl> ;
+        rut:testsError             "0"^^xsd:nonNegativeInteger ;
+        rut:testsFailed            "1"^^xsd:nonNegativeInteger ;
+        rut:testsRun               "6"^^xsd:nonNegativeInteger ;
+        rut:testsSuceedded         "5"^^xsd:nonNegativeInteger ;
+        rut:testsTimeout           "0"^^xsd:nonNegativeInteger ;
+        rut:totalIndividualErrors  "12"^^xsd:nonNegativeInteger ;
+        prov:endedAtTime           "2018-06-15T10:13:29.692Z"^^xsd:dateTime ;
+        prov:startedAtTime         "2018-06-15T10:13:29.372Z"^^xsd:dateTime ;
+        prov:wasAssociatedWith     </data/tmp/dnb/gnd.shapes.ttl> ;
+        prov:wasStartedBy          <http://localhost/> ;
+        sh:conforms                false ;
+        sh:result                  <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc808d-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc808f-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8094-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc808c-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8093-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8096-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8095-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc808e-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8092-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8091-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8090-2bba-11b2-8067-0242ee246f93> , <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc808b-2bba-11b2-8067-0242ee246f93> .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc808b-2bba-11b2-8067-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-15T10:13:29.664Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdf:Alt ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8092-2bba-11b2-8067-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-15T10:13:29.673Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdfs:Container ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc808d-2bba-11b2-8067-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-15T10:13:29.667Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdf:List ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8094-2bba-11b2-8067-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-15T10:13:29.674Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdfs:Datatype ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8096-2bba-11b2-8067-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-15T10:13:29.676Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdfs:Resource ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8091-2bba-11b2-8067-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-15T10:13:29.672Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdfs:Class ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93/30dc8093-2bba-11b2-8067-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-15T10:13:29.673Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:30dc8086-2bba-11b2-8067-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:30dc808a-2bba-11b2-8067-0242ee246f93> ;
+        sh:focusNode                  rdfs:ContainerMembershipProperty ;
+        sh:message                    "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultMessage              "Each owl:Class should have at least one rdfs:label" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .

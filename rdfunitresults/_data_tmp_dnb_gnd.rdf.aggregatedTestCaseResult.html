@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html><head>
+<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.16.4/css/theme.default.css" >
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.16.4/jquery.tablesorter.min.js"></script>
+<script type="text/javascript"> $(function() {$("#myTable").tablesorter();});</script><title>RDFUnit validation results</title></head><body>
+<h2>TestExecution: urn:uuid:3b5bd1d4-2bba-11b2-80e4-0242ee246f93</h2>
+<dl class="dl-horizontal">
+<dt>Dataset</dt><dd> /data/tmp/dnb/gnd.rdf</dd>
+<dt>Test execution started</dt><dd> 2018-06-15T15:07:01.068Z</dd>
+<dt>-ended</dt><dd> 2018-06-15T15:07:01.711Z</dd>
+<dt>Total test cases</dt><dd> 2</dd>
+<dt>Succeeded</dt><dd> 1</dd>
+<dt>Failed</dt><dd> 1</dd>
+<dt>Timeout / Error </dt><dd> T:0 / E: 0</dd>
+<dt>Violation instances</dt><dd> 14</dd>
+</dl>
+<h3>Results</h3>
+<table id="myTable" class="tablesorter tablesorter-default table" summary="Detailed results"><thead>
+<tr><th>Status</th><th>Level</th><th>Test Case</th><th>Errors</th><th>Prevalence</th></tr>
+</thead><tbody>
+<tr class="danger"><td><a href="http://rdfunit.aksw.org/ns/core#ResultStatusFail">Fail</a></td><td><a href="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#ERROR">ERROR</a></td><td><span title="urn:uuid:3b5bd1d0-2bba-11b2-80e4-0242ee246f93">Each owl:Class should have at least an English and a German label</span></td><td>14</td><td>-1</td></tr>
+<tr class="success"><td><a href="http://rdfunit.aksw.org/ns/core#ResultStatusSuccess">Success</a></td><td><a href="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#ERROR">ERROR</a></td><td><span title="urn:uuid:3b5bd1d2-2bba-11b2-80e4-0242ee246f93">Each gnd:dateOfBirth can not be greater than gnd:dateOfDeath</span></td><td>0</td><td>-1</td></tr>
+</tbody></table>
+</body>
+</html>
