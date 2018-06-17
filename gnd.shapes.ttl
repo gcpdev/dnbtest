@@ -33,10 +33,10 @@ gnd-shape:DifferentiatedPersonShape
  sh:property [
    sh:message "Each gnd:dateOfBirth can not be greater than gnd:dateOfDeath" ;
    sh:path gnd:dateOfBirth ;
-   sh:lessThan gnd:dateOfDeath ;
+   sh:lessThanOrEquals gnd:dateOfDeath ;
    ]
    .
-   
+
 gnd-shape:ClassesLabelShape
  a sh:Shape;
   sh:targetClass rdfs:Class ;
@@ -49,15 +49,15 @@ gnd-shape:ClassesLabelShape
       PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
       SELECT DISTINCT $this WHERE {
         $this a rdfs:Class .
-       FILTER NOT EXISTS {
+        FILTER NOT EXISTS {
           $this rdfs:label ?l .
-          FILTER(LANG(?l) = ('de')) 
+          FILTER(LANG(?l) = ('de'))
         } .
         FILTER NOT EXISTS {
           $this rdfs:label ?l .
-          FILTER(LANG(?l) = ('en')) 
+          FILTER(LANG(?l) = ('en'))
         } .
       }
     """;
   ]
-  . 
+  .
