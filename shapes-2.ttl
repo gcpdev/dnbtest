@@ -26,20 +26,8 @@ gnd-shape:
   	sh:namespace "https://d-nb.info/standards/elementset/gnd#"^^xsd:anyURI ;
 ] .
 
-gnd-shape:DifferentiatedPersonShape
- a sh:Shape;
- sh:targetClass gnd:DifferentiatedPerson;
- sh:severity sh:Error ;
- sh:property [
-   sh:message "Each gnd:dateOfBirth can not be greater than gnd:dateOfDeath" ;
-   sh:path gnd:dateOfBirth ;
-   sh:lessThanOrEquals gnd:dateOfDeath ;
-   ]
-   .
-
 gnd-shape:ClassesLabelShape
  a sh:Shape;
-  sh:targetClass rdfs:Class ;
   sh:severity sh:Error ;
   sh:sparql [
     sh:message "Each owl:Class should have at least an English and a German label" ;

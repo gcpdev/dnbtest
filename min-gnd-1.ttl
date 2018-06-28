@@ -1,0 +1,6 @@
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://d-nb.info/gnd/1035630273> a gndo:DifferentiatedPerson ;
+	gndo:dateOfBirth "1981-03-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	gndo:dateOfDeath "1980-03-14"^^<http://www.w3.org/2001/XMLSchema#date> .
