@@ -29,6 +29,7 @@ gnd-shape:
 gnd-shape:ClassesLabelShape
  a sh:Shape;
   sh:severity sh:Error ;
+  sh:targetClass rdfs:Class ;
   sh:sparql [
     sh:message "Each owl:Class should have at least an English and a German label" ;
     sh:severity sh:Warning ;

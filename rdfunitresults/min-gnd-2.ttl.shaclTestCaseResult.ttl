@@ -1,0 +1,231 @@
+@prefix schema: <http://schema.org/> .
+@prefix dsp:   <http://dublincore.org/dc-dsp#> .
+@prefix rutg:  <http://rdfunit.aksw.org/data/generators#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rlog:  <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rutp:  <http://rdfunit.aksw.org/data/patterns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix oslc:  <http://open-services.net/ns/core#> .
+@prefix rut:   <http://rdfunit.aksw.org/ns/core#> .
+@prefix rutr:  <http://rdfunit.aksw.org/data/results#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rutt:  <http://rdfunit.aksw.org/data/tests#> .
+@prefix ruts:  <http://rdfunit.aksw.org/data/testsuite#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd2118a3-2bbc-11b2-8000-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-28T09:39:37.523Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdfs:Resource ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd2118a0-2bbc-11b2-8000-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-28T09:39:37.519Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdfs:ContainerMembershipProperty ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189e-2bbc-11b2-8000-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-28T09:39:37.516Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdfs:Class ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd2118a2-2bbc-11b2-8000-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-28T09:39:37.521Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdfs:Literal ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189b-2bbc-11b2-8000-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-28T09:39:37.512Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdf:Seq ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd211898-2bbc-11b2-8000-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-28T09:39:37.508Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdf:Bag ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189d-2bbc-11b2-8000-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-28T09:39:37.515Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdf:XMLLiteral ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93>
+        a                          rut:TestExecution , prov:Activity , sh:ValidationReport ;
+        rut:executionType          "shaclTestCaseResult" ;
+        rut:source                 <min-gnd-2.ttl> ;
+        rut:testsError             "0"^^xsd:nonNegativeInteger ;
+        rut:testsFailed            "1"^^xsd:nonNegativeInteger ;
+        rut:testsRun               "1"^^xsd:nonNegativeInteger ;
+        rut:testsSuceedded         "0"^^xsd:nonNegativeInteger ;
+        rut:testsTimeout           "0"^^xsd:nonNegativeInteger ;
+        rut:totalIndividualErrors  "14"^^xsd:nonNegativeInteger ;
+        prov:endedAtTime           "2018-06-28T09:39:37.526Z"^^xsd:dateTime ;
+        prov:startedAtTime         "2018-06-28T09:39:37.02Z"^^xsd:dateTime ;
+        prov:wasAssociatedWith     </data/tmp/dnbtest/shapes-2.ttl> ;
+        prov:wasStartedBy          <http://localhost/> ;
+        sh:conforms                false ;
+        sh:result                  <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189b-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189c-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd2118a3-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189a-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd211899-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd2118a0-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd2118a4-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189f-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189d-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd211898-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd2118a1-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd211897-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd2118a2-2bbc-11b2-8000-0242ee246f93> , <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189e-2bbc-11b2-8000-0242ee246f93> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189f-2bbc-11b2-8000-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-28T09:39:37.518Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdfs:Container ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd2118a4-2bbc-11b2-8000-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-28T09:39:37.525Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  sh:Shape ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189a-2bbc-11b2-8000-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-28T09:39:37.511Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdf:Property ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd211897-2bbc-11b2-8000-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-28T09:39:37.506Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdf:Alt ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd21189c-2bbc-11b2-8000-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-28T09:39:37.514Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdf:Statement ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd211899-2bbc-11b2-8000-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-06-28T09:39:37.51Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdf:List ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
+
+<urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93/cd2118a1-2bbc-11b2-8000-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-06-28T09:39:37.52Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:cd211894-2bbc-11b2-8000-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:cd211896-2bbc-11b2-8000-0242ee246f93> ;
+        sh:focusNode                  rdfs:Datatype ;
+        sh:message                    "Each owl:Class should have at least an English and a German label" ;
+        sh:resultMessage              "Each owl:Class should have at least an English and a German label" ;
+        sh:resultSeverity             sh:Error ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraint           _:b0 ;
+        sh:sourceConstraintComponent  sh:SPARQLConstraintComponent ;
+        sh:sourceShape                <https://d-nb.info/standards/elementset/gnd-shape#ClassesLabelShape> .
