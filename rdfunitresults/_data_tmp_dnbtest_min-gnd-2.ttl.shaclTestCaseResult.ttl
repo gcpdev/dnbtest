@@ -1,0 +1,230 @@
+@prefix schema: <http://schema.org/> .
+@prefix dsp:   <http://dublincore.org/dc-dsp#> .
+@prefix rutg:  <http://rdfunit.aksw.org/data/generators#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rlog:  <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rutp:  <http://rdfunit.aksw.org/data/patterns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix oslc:  <http://open-services.net/ns/core#> .
+@prefix rut:   <http://rdfunit.aksw.org/ns/core#> .
+@prefix rutr:  <http://rdfunit.aksw.org/data/results#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rutt:  <http://rdfunit.aksw.org/data/tests#> .
+@prefix ruts:  <http://rdfunit.aksw.org/data/testsuite#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb26-2bbd-11b2-801d-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-07-02T10:49:14.709Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdf:Seq ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2b-2bbd-11b2-801d-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-07-02T10:49:14.714Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdfs:ContainerMembershipProperty ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb28-2bbd-11b2-801d-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-07-02T10:49:14.711Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdf:XMLLiteral ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb21-2bbd-11b2-801d-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-07-02T10:49:14.685Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1c-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  <http://d-nb.info/standards/elementset/gnd#DifferentiatedPerson> ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2e-2bbd-11b2-801d-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-07-02T10:49:14.717Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdfs:Resource ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb23-2bbd-11b2-801d-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-07-02T10:49:14.705Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdf:Bag ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb25-2bbd-11b2-801d-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-07-02T10:49:14.707Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdf:Property ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2d-2bbd-11b2-801d-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-07-02T10:49:14.716Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdfs:Literal ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb22-2bbd-11b2-801d-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-07-02T10:49:14.704Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdf:Alt ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2f-2bbd-11b2-801d-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-07-02T10:49:14.718Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  sh:NodeShape ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2a-2bbd-11b2-801d-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-07-02T10:49:14.713Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdfs:Container ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb27-2bbd-11b2-801d-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-07-02T10:49:14.71Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdf:Statement ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2c-2bbd-11b2-801d-0242ee246f93>
+        a                             sh:ValidationResult , rut:TestCaseResult ;
+        dcterms:date                  "2018-07-02T10:49:14.715Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdfs:Datatype ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb29-2bbd-11b2-801d-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-07-02T10:49:14.712Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdfs:Class ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93>
+        a                          prov:Activity , sh:ValidationReport , rut:TestExecution ;
+        rut:executionType          "shaclTestCaseResult" ;
+        rut:source                 </data/tmp/dnbtest/min-gnd-2.ttl> ;
+        rut:testsError             "0"^^xsd:nonNegativeInteger ;
+        rut:testsFailed            "2"^^xsd:nonNegativeInteger ;
+        rut:testsRun               "3"^^xsd:nonNegativeInteger ;
+        rut:testsSuceedded         "1"^^xsd:nonNegativeInteger ;
+        rut:testsTimeout           "0"^^xsd:nonNegativeInteger ;
+        rut:totalIndividualErrors  "15"^^xsd:nonNegativeInteger ;
+        prov:endedAtTime           "2018-07-02T10:49:14.719Z"^^xsd:dateTime ;
+        prov:startedAtTime         "2018-07-02T10:49:14.506Z"^^xsd:dateTime ;
+        prov:wasAssociatedWith     </data/tmp/dnbtest/shapes-2.ttl> ;
+        prov:wasStartedBy          <http://localhost/> ;
+        sh:conforms                false ;
+        sh:result                  <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2d-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2b-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb23-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb29-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb22-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2e-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb21-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb27-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb26-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2f-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2c-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb25-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb24-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb2a-2bbd-11b2-801d-0242ee246f93> , <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb28-2bbd-11b2-801d-0242ee246f93> .
+
+<urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93/9d9ceb24-2bbd-11b2-801d-0242ee246f93>
+        a                             rut:TestCaseResult , sh:ValidationResult ;
+        dcterms:date                  "2018-07-02T10:49:14.706Z"^^xsd:dateTime ;
+        rut:testCase                  <urn:uuid:9d9ceb1e-2bbd-11b2-801d-0242ee246f93> ;
+        prov:wasGeneratedBy           <urn:uuid:9d9ceb20-2bbd-11b2-801d-0242ee246f93> ;
+        sh:focusNode                  rdf:List ;
+        sh:message                    "Minimum cardinality for <http://www.w3.org/2000/01/rdf-schema#label> is \"2\"^^<http://www.w3.org/2001/XMLSchema#integer>" ;
+        sh:resultPath                 rdfs:label ;
+        sh:resultSeverity             sh:Violation ;
+        sh:severity                   rlog:ERROR ;
+        sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+        sh:sourceShape                _:b0 .

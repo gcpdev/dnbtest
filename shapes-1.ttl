@@ -3,37 +3,15 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix gnd-shape: <https://d-nb.info/standards/elementset/gnd-shape#> .
-@prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-gnd-shape:
-  rdfs:label "SHACL for GND Ontology"@en ;
-  rdfs:comment "This shapes graph is used to validate the GND ontology. "@en ;
-  sh:declare [
-	  sh:prefix "rdfs" ;
-	  sh:namespace "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
-  ] ;
-  sh:declare [
-  	sh:prefix "owl" ;
-  	sh:namespace "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
-  ] ;
-  sh:declare [
-  	sh:prefix "rdf" ;
-  	sh:namespace "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
-  ] ;
-  sh:declare [
-  	sh:prefix "gnd" ;
-  	sh:namespace "https://d-nb.info/standards/elementset/gnd#"^^xsd:anyURI ;
-] .
-
-gnd-shape:DifferentiatedPersonShape
- a sh:Shape;
- sh:targetClass gnd:Person;
- sh:targetSubjectsOf rdfs:subClassOf ;
- sh:severity sh:Error ;
+gnd-shape:LessThanExampleShape
+ a sh:NodeShape;
+ sh:targetClass gndo:DifferentiatedPerson;
  sh:property [
-   sh:message "Each gnd:dateOfBirth can not be greater than gnd:dateOfDeath" ;
-   sh:path gnd:dateOfBirth ;
-   sh:lessThanOrEquals gnd:dateOfDeath ;
+   sh:path gndo:dateOfBirth ;
+   sh:lessThan gndo:dateOfDeath ;
    ]
    .
+

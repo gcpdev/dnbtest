@@ -6,47 +6,12 @@
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-gnd-shape:
-  rdfs:label "SHACL for GND Ontology"@en ;
-  rdfs:comment "This shapes graph is used to validate the GND ontology. "@en ;
-  sh:declare [
-	  sh:prefix "rdfs" ;
-	  sh:namespace "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
-  ] ;
-  sh:declare [
-  	sh:prefix "owl" ;
-  	sh:namespace "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
-  ] ;
-  sh:declare [
-  	sh:prefix "rdf" ;
-  	sh:namespace "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
-  ] ;
-  sh:declare [
-  	sh:prefix "gnd" ;
-  	sh:namespace "https://d-nb.info/standards/elementset/gnd#"^^xsd:anyURI ;
-] .
-
 gnd-shape:ClassesLabelShape
- a sh:Shape;
-  sh:severity sh:Error ;
+ a sh:NodeShape;
   sh:targetClass rdfs:Class ;
-  sh:sparql [
-    sh:message "Each owl:Class should have at least an English and a German label" ;
-    sh:severity sh:Warning ;
-    sh:select """
-      PREFIX owl: <http://www.w3.org/2002/07/owl#>
-      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-      SELECT DISTINCT $this WHERE {
-        $this a rdfs:Class .
-        FILTER NOT EXISTS {
-          $this rdfs:label ?l .
-          FILTER(LANG(?l) = ('de'))
-        } .
-        FILTER NOT EXISTS {
-          $this rdfs:label ?l .
-          FILTER(LANG(?l) = ('en'))
-        } .
-      }
-    """;
-  ]
-  .
+  sh:property [
+    sh:path rdfs:label ;
+    sh:minCount 2 ;
+    sh:uniqueLang true ;
+    sh:laguageIn ( "en" "de" ) ;
+ ] .
